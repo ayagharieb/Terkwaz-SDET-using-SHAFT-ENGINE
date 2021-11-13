@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[DynamicLoadingTest.DynamicLoadingTests.getTextAfterLoading]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211113-101645", Target File: "\1636791448549_getTextAfterLoading.gif"]. @13-11-2021 10:17:28.0622 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Dynamic Loading]. @13-11-2021 10:17:31.0540 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Example 2: Element rendered after the fact]. @13-11-2021 10:17:33.0119 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Start]. @13-11-2021 10:17:34.0236 AM
+[ReportManager] Waiting for element to be present; elementLocator [By.id: finish], numberOfTries[5], stateOfPresence[true]... @13-11-2021 10:17:34.0241 AM
+[ReportManager] Element Action [WaitForElementToBePresent] successfully performed. With the following test data [waited for the element's state of presence to be (true). Element locator (By.id: finish)]. @13-11-2021 10:17:39.0652 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Hello World!]. @13-11-2021 10:17:40.0122 AM
+[ReportManager] Assertion Passed: Then I Assert that [Hello World!] is equal to [Hello World!]. @13-11-2021 10:17:40.0768 AM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Hello World!] and Actual [Hello World!]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @13-11-2021 10:17:40.0769 AM
+[ReportManager] Successfully created attachment [Animated Gif - getTextAfterLoading] @13-11-2021 10:17:40.0997 AM
