@@ -30,8 +30,8 @@ public class APITests {
        Response res= apiObjectsPage.getcatFacts();
        String RandomNo = apiObjectsPage.getRandomNumber();
        String Text = RestActions.getResponseJSONValue(res, "text[" + RandomNo + "]");
-       Validations.assertThat().response(Text.isEmpty());;
-      System.out.println("Random no. Choosen is:" + RandomNo +" And the Text is: \n"+Text);
+       Validations.assertThat().response(Text.isEmpty());
+        System.out.println("Random no. Choosen is:" + RandomNo +" And the Text is: \n"+Text);
 
    }
 
